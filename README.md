@@ -11,10 +11,10 @@ Firstly, I add `Eigen3` source code and `Accelerate.framework` needed by libcere
 Secondly, I modified both CMakeLists.txt under `root path` and `internal/ceres` to make sure cmake can find Eigen3 we added.
 
 ## How to Compile
-Follow command below, and you will get libceres.a for IOS platform(armv7 arm64 x86_64) in `ios_build/`  
-`cd 3rdParty/eigen3`  
-`sh build.sh`
-and you will install Eigen3, and then
+Follow command below, and you will get libceres.a for IOS platform(armv7 arm64 x86_64) in `ios_build/`     
+`cd 3rdParty/eigen3`   
+`sh build.sh`   
+and you will install Eigen3, and then   
 `cd ../../ios_build`  
-`sh build.sh`
-and libceres.a will be saved.
+`sh build.sh`   
+Finally, libceres.a will be saved.
